@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../SpaceInvaders/Assets.xcassets/raumschiff_feuer.dataset/raumschiff_feuer.m4a">
+   </FileRef>
+   <FileRef
+      location = "group:../SpaceInvaders/Assets.xcassets/raumschiff_explosion.dataset/raumschiff_explosion.m4a">
+   </FileRef>
+   <FileRef
+      location = "group:../SpaceInvaders/Assets.xcassets/alien_feuer.dataset/alien_feuer.m4a">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6033B762350DF57000CAA40 /* EndGegner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6625F88234F382C00AC7B1D /* EndGegner.swift */; };
+		F6311334234BC4CA0002898E /* alien_explosion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F6311333234BC4CA0002898E /* alien_explosion.m4a */; };
+		F6311336234BC4D20002898E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6311335234BC4D20002898E /* Assets.xcassets */; };
+		F631133A234BC5370002898E /* raumschiff_explosion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F6311339234BC5370002898E /* raumschiff_explosion.m4a */; };
+		F631133C234BC53B0002898E /* raumschiff_feuer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F631133B234BC53B0002898E /* raumschiff_feuer.m4a */; };
+		F631133E234BC5980002898E /* alien_feuer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F631133D234BC5980002898E /* alien_feuer.m4a */; };
+		F691BDF4234BBBCF00DCB3F4 /* GameLevelEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691BDF3234BBBCF00DCB3F4 /* GameLevelEnd.swift */; };
+		F6E2B7C2234B60D80042D704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2B7C1234B60D80042D704 /* AppDelegate.swift */; };
+		F6E2B7C4234B60D80042D704 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F6E2B7C3234B60D80042D704 /* GameScene.sks */; };
+		F6E2B7C6234B60D80042D704 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F6E2B7C5234B60D80042D704 /* Actions.sks */; };
+		F6E2B7C8234B60D80042D704 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2B7C7234B60D80042D704 /* GameScene.swift */; };
+		F6E2B7CA234B60D80042D704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2B7C9234B60D80042D704 /* ViewController.swift */; };
+		F6E2B7CF234B60D90042D704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E2B7CD234B60D90042D704 /* Main.storyboard */; };
+		F6E2B7D8234B63130042D704 /* GameLevel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2B7D7234B63130042D704 /* GameLevel1.swift */; };
+		F6E2B7DA234B654F0042D704 /* Raumschiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2B7D9234B654F0042D704 /* Raumschiff.swift */; };
+		F6E2B7DC234B6C130042D704 /* Alien.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E2B7DB234B6C130042D704 /* Alien.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6311333234BC4CA0002898E /* alien_explosion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = alien_explosion.m4a; path = Assets.xcassets/alien_explosion.dataset/alien_explosion.m4a; sourceTree = "<group>"; };
+		F6311335234BC4D20002898E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6311339234BC5370002898E /* raumschiff_explosion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = raumschiff_explosion.m4a; path = Assets.xcassets/raumschiff_explosion.dataset/raumschiff_explosion.m4a; sourceTree = "<group>"; };
+		F631133B234BC53B0002898E /* raumschiff_feuer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = raumschiff_feuer.m4a; path = Assets.xcassets/raumschiff_feuer.dataset/raumschiff_feuer.m4a; sourceTree = "<group>"; };
+		F631133D234BC5980002898E /* alien_feuer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = alien_feuer.m4a; sourceTree = "<group>"; };
+		F6625F88234F382C00AC7B1D /* EndGegner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGegner.swift; sourceTree = "<group>"; };
+		F691BDF3234BBBCF00DCB3F4 /* GameLevelEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelEnd.swift; sourceTree = "<group>"; };
+		F6E2B7BE234B60D80042D704 /* SpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E2B7C1234B60D80042D704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6E2B7C3234B60D80042D704 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F6E2B7C5234B60D80042D704 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F6E2B7C7234B60D80042D704 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F6E2B7C9234B60D80042D704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6E2B7CE234B60D90042D704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6E2B7D0234B60D90042D704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E2B7D1234B60D90042D704 /* SpaceInvaders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpaceInvaders.entitlements; sourceTree = "<group>"; };
+		F6E2B7D7234B63130042D704 /* GameLevel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevel1.swift; sourceTree = "<group>"; };
+		F6E2B7D9234B654F0042D704 /* Raumschiff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raumschiff.swift; sourceTree = "<group>"; };
+		F6E2B7DB234B6C130042D704 /* Alien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E2B7BB234B60D80042D704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6E2B7B5234B60D80042D704 = {
+			isa = PBXGroup;
+			children = (
+				F6E2B7C0234B60D80042D704 /* SpaceInvaders */,
+				F6E2B7BF234B60D80042D704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E2B7BF234B60D80042D704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E2B7BE234B60D80042D704 /* SpaceInvaders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E2B7C0234B60D80042D704 /* SpaceInvaders */ = {
+			isa = PBXGroup;
+			children = (
+				F6E2B7C1234B60D80042D704 /* AppDelegate.swift */,
+				F6E2B7C3234B60D80042D704 /* GameScene.sks */,
+				F6E2B7D7234B63130042D704 /* GameLevel1.swift */,
+				F6E2B7DB234B6C130042D704 /* Alien.swift */,
+				F6625F88234F382C00AC7B1D /* EndGegner.swift */,
+				F6311335234BC4D20002898E /* Assets.xcassets */,
+				F6311339234BC5370002898E /* raumschiff_explosion.m4a */,
+				F631133D234BC5980002898E /* alien_feuer.m4a */,
+				F631133B234BC53B0002898E /* raumschiff_feuer.m4a */,
+				F6311333234BC4CA0002898E /* alien_explosion.m4a */,
+				F6E2B7D9234B654F0042D704 /* Raumschiff.swift */,
+				F691BDF3234BBBCF00DCB3F4 /* GameLevelEnd.swift */,
+				F6E2B7C5234B60D80042D704 /* Actions.sks */,
+				F6E2B7C7234B60D80042D704 /* GameScene.swift */,
+				F6E2B7C9234B60D80042D704 /* ViewController.swift */,
+				F6E2B7CD234B60D90042D704 /* Main.storyboard */,
+				F6E2B7D0234B60D90042D704 /* Info.plist */,
+				F6E2B7D1234B60D90042D704 /* SpaceInvaders.entitlements */,
+			);
+			path = SpaceInvaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E2B7BD234B60D80042D704 /* SpaceInvaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E2B7D4234B60D90042D704 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */;
+			buildPhases = (
+				F6E2B7BA234B60D80042D704 /* Sources */,
+				F6E2B7BB234B60D80042D704 /* Frameworks */,
+				F6E2B7BC234B60D80042D704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceInvaders;
+			productName = SpaceInvaders;
+			productReference = F6E2B7BE234B60D80042D704 /* SpaceInvaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E2B7B6234B60D80042D704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Zoltán Gál";
+				TargetAttributes = {
+					F6E2B7BD234B60D80042D704 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F6E2B7B9234B60D80042D704 /* Build configuration list for PBXProject "SpaceInvaders" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6E2B7B5234B60D80042D704;
+			productRefGroup = F6E2B7BF234B60D80042D704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E2B7BD234B60D80042D704 /* SpaceInvaders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E2B7BC234B60D80042D704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F631133A234BC5370002898E /* raumschiff_explosion.m4a in Resources */,
+				F631133C234BC53B0002898E /* raumschiff_feuer.m4a in Resources */,
+				F631133E234BC5980002898E /* alien_feuer.m4a in Resources */,
+				F6E2B7C4234B60D80042D704 /* GameScene.sks in Resources */,
+				F6311334234BC4CA0002898E /* alien_explosion.m4a in Resources */,
+				F6E2B7C6234B60D80042D704 /* Actions.sks in Resources */,
+				F6311336234BC4D20002898E /* Assets.xcassets in Resources */,
+				F6E2B7CF234B60D90042D704 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E2B7BA234B60D80042D704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E2B7CA234B60D80042D704 /* ViewController.swift in Sources */,
+				F6033B762350DF57000CAA40 /* EndGegner.swift in Sources */,
+				F6E2B7DA234B654F0042D704 /* Raumschiff.swift in Sources */,
+				F691BDF4234BBBCF00DCB3F4 /* GameLevelEnd.swift in Sources */,
+				F6E2B7C8234B60D80042D704 /* GameScene.swift in Sources */,
+				F6E2B7DC234B6C130042D704 /* Alien.swift in Sources */,
+				F6E2B7D8234B63130042D704 /* GameLevel1.swift in Sources */,
+				F6E2B7C2234B60D80042D704 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6E2B7CD234B60D90042D704 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E2B7CE234B60D90042D704 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E2B7D2234B60D90042D704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6E2B7D3234B60D90042D704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F6E2B7D5234B60D90042D704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpaceInvaders/SpaceInvaders.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceInvaders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhc.SpaceInvaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F6E2B7D6234B60D90042D704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SpaceInvaders/SpaceInvaders.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceInvaders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhc.SpaceInvaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E2B7B9234B60D80042D704 /* Build configuration list for PBXProject "SpaceInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E2B7D2234B60D90042D704 /* Debug */,
+				F6E2B7D3234B60D90042D704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E2B7D4234B60D90042D704 /* Build configuration list for PBXNativeTarget "SpaceInvaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E2B7D5234B60D90042D704 /* Debug */,
+				F6E2B7D6234B60D90042D704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6E2B7B6234B60D80042D704 /* Project object */;
+}
